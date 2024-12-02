@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve this platform</p>
+        <form id="survey-form">
+            <label id="name-label" for="name">Name:</label>
+            <input id="name" type="text" placeholder="Enter your name" required>
+            
+            <label id="email-label" for="email">Email:</label>
+            <input id="email" type="email" placeholder="Enter your email" required>
+            
+            <label id="number-label" for="number">Age(optional):</label>
+            <input id="number" type="number" placeholder="Enter your age" min="18" max="99" required>
+            
+            <label for="dropdown">Which option best describe your current role</label>
+            <select id="dropdown">
+                <option value="student">select current role</option>
+                <option value="student">student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Full Time Learner">Full Time Learner</option>
+                <option value="Prefer Not To Say">prefer not to sy</option>
+                <option value="other">other</option>
+            </select>
+            
+            <fieldset>
+                <legend>Would you recommend freecodecamp to a friend?</legend>
+                <br><label>
+                    <input type="radio" name="satisfaction" value="Definitely"> Definitely
+                </label>
+                <br><label>
+                    <input type="radio" name="satisfaction" value="Maybe"> Maybe
+                </label>
+                
+                <br><label>
+                    <input type="radio" name="satisfaction" value="Not sure"> Not sure
+                </label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>What would you like to improve?</legend>
+                <p>(check all that apply)</p>
+                <br><label>
+                    <input type="checkbox" name="features" value="Front-end Project"> Front-end Project
+                </label>
+                <br><label>
+                    <input type="checkbox" name="features" value="Back-end Project"> Back-end Project
+                </label>
+                <br><label>
+                    <input type="checkbox" name="features" value="Data Visualization"> Data Visualization
+                </label>
+                <br><label>
+                    <input type="checkbox" name="features" value="Challenges"> Challenges
+                </label>
+                <br><label>
+                    <input type="checkbox" name="features" value="Open sourrce Community"> open source community
+                </label>
+                <br><label>
+                    <input type="checkbox" name="features" value="Gitter help room"> Gitter help room
+                </label>
+                <br><label>
+                    <input type="checkbox" name="features" value="videos"> videos
+                </label>
+                <br><label>
+                    <input type="checkbox" name="features" value="city meetups"> City meetups
+                </label>
+                <br><label>
+                    <input type="checkbox" name="features" value="wiki"> wiki
+                </label>
+                <br><label>
+                    <input type="checkbox" name="features" value="forum"> Forum
+                </label>
+                <br><label>
+                    <input type="checkbox" name="features" value="Additional courses"> Additional courses
+                </label>
+
+
+
+                
+
+            </fieldset>
+            
+            <label for="comments">Any comment or suggestion?</label>
+            <textarea id="comments" placeholder="Enter your comments here..."></textarea>
+            
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
