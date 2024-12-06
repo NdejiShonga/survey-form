@@ -1,0 +1,64 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Container layout */
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 15%;
+    background-color: white;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 15px;
+    
+}
+
+.sidebar a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+
+/* Content area styles */
+.content {
+    width: 80%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.content section {
+    margin-bottom: 50px;
+}
+
+.content h2 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.content p {
+    line-height: 1.6;
+    color: black;
+}

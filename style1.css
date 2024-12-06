@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    line-height: 1.6;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.container {
+    text-size-adjust: 10;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    backgrouund: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+header{
+    padding: 10px;
+    text-align: center;
+    background-color: beige;
+}
